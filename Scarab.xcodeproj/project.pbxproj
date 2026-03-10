@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555C12D82F5FCFC200350141 /* Scarab Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 555C12D72F5FCFC200350141 /* Scarab Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555C12C22F5FCFC200350141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C129C2F5FCFC100350141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C12A32F5FCFC100350141;
+			remoteInfo = Scarab;
+		};
+		555C12CC2F5FCFC200350141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C129C2F5FCFC100350141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C12A32F5FCFC100350141;
+			remoteInfo = Scarab;
+		};
+		555C12D92F5FCFC200350141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 555C129C2F5FCFC100350141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555C12D62F5FCFC200350141;
+			remoteInfo = "Scarab Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		555C12F62F5FCFC200350141 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				555C12D82F5FCFC200350141 /* Scarab Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		555C12A42F5FCFC100350141 /* Scarab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scarab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C12C12F5FCFC200350141 /* ScarabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C12CB2F5FCFC200350141 /* ScarabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C12D72F5FCFC200350141 /* Scarab Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Scarab Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		555C12F12F5FCFC200350141 /* Exceptions for "Scarab" folder in "Scarab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 555C12A32F5FCFC100350141 /* Scarab */;
+		};
+		555C12F52F5FCFC200350141 /* Exceptions for "Scarab Extension" folder in "Scarab Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 555C12D62F5FCFC200350141 /* Scarab Extension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		555C12A62F5FCFC100350141 /* Scarab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				555C12F12F5FCFC200350141 /* Exceptions for "Scarab" folder in "Scarab" target */,
+			);
+			path = Scarab;
+			sourceTree = "<group>";
+		};
+		555C12C42F5FCFC200350141 /* ScarabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScarabTests;
+			sourceTree = "<group>";
+		};
+		555C12CE2F5FCFC200350141 /* ScarabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScarabUITests;
+			sourceTree = "<group>";
+		};
+		555C12DB2F5FCFC200350141 /* Scarab Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				555C12F52F5FCFC200350141 /* Exceptions for "Scarab Extension" folder in "Scarab Extension" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Scarab Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555C12A12F5FCFC100350141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12BE2F5FCFC200350141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12C82F5FCFC200350141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12D42F5FCFC200350141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		555C129B2F5FCFC100350141 = {
+			isa = PBXGroup;
+			children = (
+				555C12A62F5FCFC100350141 /* Scarab */,
+				555C12C42F5FCFC200350141 /* ScarabTests */,
+				555C12CE2F5FCFC200350141 /* ScarabUITests */,
+				555C12DB2F5FCFC200350141 /* Scarab Extension */,
+				555C12A52F5FCFC100350141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		555C12A52F5FCFC100350141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555C12A42F5FCFC100350141 /* Scarab.app */,
+				555C12C12F5FCFC200350141 /* ScarabTests.xctest */,
+				555C12CB2F5FCFC200350141 /* ScarabUITests.xctest */,
+				555C12D72F5FCFC200350141 /* Scarab Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555C12A32F5FCFC100350141 /* Scarab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C12F72F5FCFC200350141 /* Build configuration list for PBXNativeTarget "Scarab" */;
+			buildPhases = (
+				555C12A02F5FCFC100350141 /* Sources */,
+				555C12A12F5FCFC100350141 /* Frameworks */,
+				555C12A22F5FCFC100350141 /* Resources */,
+				555C12F62F5FCFC200350141 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555C12DA2F5FCFC200350141 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				555C12A62F5FCFC100350141 /* Scarab */,
+			);
+			name = Scarab;
+			packageProductDependencies = (
+			);
+			productName = Scarab;
+			productReference = 555C12A42F5FCFC100350141 /* Scarab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		555C12C02F5FCFC200350141 /* ScarabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C12FC2F5FCFC200350141 /* Build configuration list for PBXNativeTarget "ScarabTests" */;
+			buildPhases = (
+				555C12BD2F5FCFC200350141 /* Sources */,
+				555C12BE2F5FCFC200350141 /* Frameworks */,
+				555C12BF2F5FCFC200350141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555C12C32F5FCFC200350141 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				555C12C42F5FCFC200350141 /* ScarabTests */,
+			);
+			name = ScarabTests;
+			packageProductDependencies = (
+			);
+			productName = ScarabTests;
+			productReference = 555C12C12F5FCFC200350141 /* ScarabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		555C12CA2F5FCFC200350141 /* ScarabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C12FF2F5FCFC200350141 /* Build configuration list for PBXNativeTarget "ScarabUITests" */;
+			buildPhases = (
+				555C12C72F5FCFC200350141 /* Sources */,
+				555C12C82F5FCFC200350141 /* Frameworks */,
+				555C12C92F5FCFC200350141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555C12CD2F5FCFC200350141 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				555C12CE2F5FCFC200350141 /* ScarabUITests */,
+			);
+			name = ScarabUITests;
+			packageProductDependencies = (
+			);
+			productName = ScarabUITests;
+			productReference = 555C12CB2F5FCFC200350141 /* ScarabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		555C12D62F5FCFC200350141 /* Scarab Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555C12F22F5FCFC200350141 /* Build configuration list for PBXNativeTarget "Scarab Extension" */;
+			buildPhases = (
+				555C12D32F5FCFC200350141 /* Sources */,
+				555C12D42F5FCFC200350141 /* Frameworks */,
+				555C12D52F5FCFC200350141 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				555C12DB2F5FCFC200350141 /* Scarab Extension */,
+			);
+			name = "Scarab Extension";
+			packageProductDependencies = (
+			);
+			productName = "Scarab Extension";
+			productReference = 555C12D72F5FCFC200350141 /* Scarab Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		555C129C2F5FCFC100350141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					555C12A32F5FCFC100350141 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					555C12C02F5FCFC200350141 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 555C12A32F5FCFC100350141;
+					};
+					555C12CA2F5FCFC200350141 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 555C12A32F5FCFC100350141;
+					};
+					555C12D62F5FCFC200350141 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = 555C129F2F5FCFC100350141 /* Build configuration list for PBXProject "Scarab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 555C129B2F5FCFC100350141;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 555C12A52F5FCFC100350141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555C12A32F5FCFC100350141 /* Scarab */,
+				555C12C02F5FCFC200350141 /* ScarabTests */,
+				555C12CA2F5FCFC200350141 /* ScarabUITests */,
+				555C12D62F5FCFC200350141 /* Scarab Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555C12A22F5FCFC100350141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12BF2F5FCFC200350141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12C92F5FCFC200350141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12D52F5FCFC200350141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555C12A02F5FCFC100350141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12BD2F5FCFC200350141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12C72F5FCFC200350141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555C12D32F5FCFC200350141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555C12C32F5FCFC200350141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C12A32F5FCFC100350141 /* Scarab */;
+			targetProxy = 555C12C22F5FCFC200350141 /* PBXContainerItemProxy */;
+		};
+		555C12CD2F5FCFC200350141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C12A32F5FCFC100350141 /* Scarab */;
+			targetProxy = 555C12CC2F5FCFC200350141 /* PBXContainerItemProxy */;
+		};
+		555C12DA2F5FCFC200350141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555C12D62F5FCFC200350141 /* Scarab Extension */;
+			targetProxy = 555C12D92F5FCFC200350141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		555C12F32F5FCFC200350141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scarab Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scarab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.Scarab.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555C12F42F5FCFC200350141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scarab Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Scarab Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.Scarab.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		555C12F82F5FCFC200350141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scarab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scarab;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.Scarab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555C12F92F5FCFC200350141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Scarab/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Scarab;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.Scarab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		555C12FA2F5FCFC200350141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		555C12FB2F5FCFC200350141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555C12FD2F5FCFC200350141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.ScarabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scarab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scarab";
+			};
+			name = Debug;
+		};
+		555C12FE2F5FCFC200350141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.ScarabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scarab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scarab";
+			};
+			name = Release;
+		};
+		555C13002F5FCFC200350141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.ScarabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scarab;
+			};
+			name = Debug;
+		};
+		555C13012F5FCFC200350141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3423ZZZZ8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.superluckyboy.ScarabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scarab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555C129F2F5FCFC100350141 /* Build configuration list for PBXProject "Scarab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C12FA2F5FCFC200350141 /* Debug */,
+				555C12FB2F5FCFC200350141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C12F22F5FCFC200350141 /* Build configuration list for PBXNativeTarget "Scarab Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C12F32F5FCFC200350141 /* Debug */,
+				555C12F42F5FCFC200350141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C12F72F5FCFC200350141 /* Build configuration list for PBXNativeTarget "Scarab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C12F82F5FCFC200350141 /* Debug */,
+				555C12F92F5FCFC200350141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C12FC2F5FCFC200350141 /* Build configuration list for PBXNativeTarget "ScarabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C12FD2F5FCFC200350141 /* Debug */,
+				555C12FE2F5FCFC200350141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555C12FF2F5FCFC200350141 /* Build configuration list for PBXNativeTarget "ScarabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555C13002F5FCFC200350141 /* Debug */,
+				555C13012F5FCFC200350141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 555C129C2F5FCFC100350141 /* Project object */;
+}
