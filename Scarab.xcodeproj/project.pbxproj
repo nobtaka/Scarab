@@ -70,6 +70,13 @@
 			);
 			target = 555C12D62F5FCFC200350141 /* Scarab Extension */;
 		};
+		555C13052F5FD65800350141 /* Exceptions for "Scarab" folder in "Scarab Extension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIcon.icon,
+			);
+			target = 555C12D62F5FCFC200350141 /* Scarab Extension */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -77,6 +84,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				555C12F12F5FCFC200350141 /* Exceptions for "Scarab" folder in "Scarab" target */,
+				555C13052F5FD65800350141 /* Exceptions for "Scarab" folder in "Scarab Extension" target */,
 			);
 			path = Scarab;
 			sourceTree = "<group>";

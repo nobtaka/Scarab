@@ -1,10 +1,10 @@
 {
     "extension_name": {
-        "message": "Scarab Extension",
+        "message": "Scarab",
         "description": "The display name for the extension."
     },
     "extension_description": {
-        "message": "This is Scarab Extension. You should tell us what your extension does here.",
+        "message": "Automatically cleans Amazon URLs by removing tracking parameters and affiliate tags.",
         "description": "Description of what the extension does."
     }
 }

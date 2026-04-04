@@ -1,6 +1,2 @@
-browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
-    console.log("Received request: ", request);
-
-    if (request.greeting === "hello")
-        return Promise.resolve({ farewell: "goodbye" });
-});
+// Background script for Scarab — Amazon URL Cleaner
+// Currently no background processing needed; URL cleaning is handled by content.js.
