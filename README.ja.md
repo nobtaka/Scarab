@@ -34,9 +34,14 @@ amazon.co.jp, amazon.com, amazon.co.uk, amazon.de, amazon.fr, amazon.it, amazon.
 
 1. このリポジトリをクローン
 2. Xcodeで `Scarab.xcodeproj` を開く
-3. ターゲットデバイスを選択して実行（⌘R）
-4. iOSの場合、**設定 → Safari → 機能拡張 → Scarab** で有効化
-5. すべてのWebサイトへのアクセスを許可
+3. ターゲットデバイス（iOSまたはmacOS）を選択して実行（⌘R）
+
+### 機能拡張の有効化
+
+- **iOS**: **設定 → Safari → 機能拡張 → Scarab** で有効化
+- **macOS**: **Safari → 設定 → 機能拡張** でScarabを有効化
+
+すべてのWebサイトへのアクセスを許可してください。
 
 ## プライバシー
 

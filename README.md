@@ -34,9 +34,14 @@ amazon.co.jp, amazon.com, amazon.co.uk, amazon.de, amazon.fr, amazon.it, amazon.
 
 1. Clone this repository
 2. Open `Scarab.xcodeproj` in Xcode
-3. Select your target device and run (⌘R)
-4. On iOS, go to **Settings → Safari → Extensions → Scarab** and enable it
-5. Allow access for all websites when prompted
+3. Select your target device (iOS or macOS) and run (⌘R)
+
+### Enable the Extension
+
+- **iOS**: Go to **Settings → Safari → Extensions → Scarab** and enable it
+- **macOS**: Go to **Safari → Settings → Extensions** and enable Scarab
+
+Allow access for all websites when prompted.
 
 ## Privacy
 
